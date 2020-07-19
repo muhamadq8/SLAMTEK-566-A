@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager3"
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_above="@+id/tabLayout2"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/jbg" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#7A0A14"
+        android:padding="0dp"
+        app:tabIndicatorAnimationDuration="300"
+        app:tabIndicatorColor="#FFFFFF"
+        app:tabPaddingEnd="12dp"
+        app:tabPaddingStart="12dp"
+        app:tabRippleColor="#FFFFFF"
+        app:tabSelectedTextColor="#FFFFFF"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        app:tabTextColor="#8BFFFFFF">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مرحبا بك" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="سجل الان" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تواصل معنا" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".db3">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="259dp"
+        android:layout_height="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@drawable/dr1" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="https://instagram.com/dr_marzouq_alenezi?igshid=1blnep9wn00zo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="155dp"
+        android:layout_height="83dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ins" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="88dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/twii" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="https://twitter.com/Dr_Alenezy?s=21"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairo_bold"
+        android:text="للتواصل مع الدكتور
+\n
+اضغط علي الصورة"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="411dp"
+        android:layout_height="263dp"
+        android:fontFamily="@font/cairo_bold"
+        android:text="
+الدكتور : مرزوق العبدالهادي العنزي
+\n
+\n
+
+استشاري نفسي ورئيس مركز جودة الحياة للتدريب والاستشارات
+\n
+\n
+
+ورئيس تحرير جريدة الإرشاد النفسي
+\n
+\n
+
+المؤهل العلمي:
+\n
+\n
+
+بكالوريوس دراسات اجتماعية-الكويت
+\n
+\n
+
+ماجستير ارشاد نفسي وتربوي-البحرين
+\n
+\n
+
+
+دكتوراه ارشاد نفسي-القاهرة
+\n
+\n
+
+دكتوراه علوم التربية-تونس
+
+
+
+"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/dashbaord"
+        android:title="مرحبا بك"
+        android:icon="@drawable/ic_dashboard"/>
+
+
+    <item
+        android:id="@+id/home"
+        android:title="سجل الان"
+        android:icon="@drawable/ic_home"/>
+
+
+
+    <item
+        android:id="@+id/about"
+        android:title="تواصل معنا"
+        android:icon="@drawable/ic_about"/>
+
+
+
+
+
+</menu>

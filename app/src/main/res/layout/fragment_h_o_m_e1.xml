@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jbg"
+    tools:context=".HOME1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="489dp"
+        android:fontFamily="@font/cairo_bold"
+        android:text="\n (مرحبا بك في برنامج سلامتك)
+        \n
+        \n
+        هو برنامج يهتم بالجوانب الصحية التي تهم الكثير من الناس\n
+
+ \n-وتغطي الجوانب التالية
+ \n
+ \n-مساعدة أي شخص يحتاج أن يبلغ عن حادث مروري
+ \n
+\n-يوفر البرنامج لمتابعة ثله من الأطباء في تخصصات مختلفه لمساعدة من يحتاج لها
+\n
+\n-يحتوي علي أجابات لكثير من الأسئلة الطبية التي يحتاج لها الكثير من الناس\n
+"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

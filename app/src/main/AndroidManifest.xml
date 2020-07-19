@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.slamtek566a">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ask"></activity>
+        <activity android:name=".phon2" />
+        <activity android:name=".phon" />
+        <activity android:name=".db4" />
+        <activity android:name=".db3" />
+        <activity android:name=".db2" />
+        <activity android:name=".db1" />
+        <activity android:name=".dr4" />
+        <activity android:name=".dr3" />
+        <activity android:name=".dr2" />
+        <activity android:name=".dr1" />
+        <activity android:name=".start" />
+        <activity android:name=".Login2" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
